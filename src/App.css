@@ -1,0 +1,36 @@
+input[type=number]{
+    width:60px!important;
+    padding:5px;
+    border-color: 'lightgrey'!important;
+    outline: none;
+
+}
+
+input[type=text]{
+    border:1px solid #cccccc ;
+    padding:10px;
+    border-color: 'lightgrey'!important;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: inset .5px .5px .5px .5px lightgrey;
+    margin-right:5px
+
+}
+
+button{
+    padding:10px;
+    width:70px;
+    font-weight:600;
+    background-color:#fff;
+    border:2px solid lightgrey; 
+}
+
+.model-select{
+    height: 33px;
+    margin-right: 5px;
+    margin-left: -11px;
+    margin-bottom: 5px;
+}
+.inline-block {
+    display: inline-flex;
+}
