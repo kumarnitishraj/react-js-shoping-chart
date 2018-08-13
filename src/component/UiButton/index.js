@@ -18,7 +18,7 @@ const buttonStyle =(props)=>{
 const UiButton = (props) => {
     return (
         <div style={{float:props.align}}>
-            <button style={buttonStyle(props)}>
+            <button style={buttonStyle(props)} onClick={props.onClick}>
                 {props.text}
             </button>
         </div>

@@ -64,7 +64,7 @@ class UiModal extends React.Component {
 
                             </Col>
                     
-                            <UiButton text={'Edit'} color="darkblue" size={80}/>
+                            <UiButton text={'Edit'} color="darkblue" onClick={onHide} size={80}/>
                             <UiText text={'Cotton T-shirts'} underline={true}/>
                         
                         </Col>
